@@ -1,0 +1,181 @@
+@import url("https://fonts.googleapis.com/css2?family=PT+Serif&display=swap");
+header .logo {
+    margin: 0;
+}
+
+header h1 {
+    font-size: 50px;
+    margin: 10px 480px;
+    font-family: monospace;
+}
+
+header nav {
+    color: white;
+    font-size: 15pt;
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    padding: 0px;
+    background: -webkit-gradient(linear, left top, left bottom, from(#0c0535), to(#817f7f));
+    background: linear-gradient(top, #0c0535, #817f7f);
+    border-radius: 5px;
+}
+
+header nav li {
+    display: inline;
+    padding: 0px 5px;
+    margin: 0px 15px;
+}
+
+header a:active {
+    color: white;
+}
+
+header a:link {
+    color: white;
+}
+
+header a:visited {
+    color: white;
+}
+
+header a:hover {
+    color: white;
+}
+
+header #theme {
+    position: fixed;
+    right: 100px;
+    bottom: 10px;
+    color: #0c0535;
+    border-radius: 5px;
+    border: 2px solid #0c0535;
+    padding: 10px;
+    background: radial-gradient(white, #9e9898);
+}
+
+header #theme:hover {
+    border: 2px solid black;
+    color: #4e5579;
+    background: none;
+    cursor: pointer;
+}
+
+main h2 {
+    display: inline-block;
+    font-size: 22pt;
+    padding-left: 380px;
+    display: inline;
+    position: relative;
+}
+
+main #home {
+    display: block;
+    float: left;
+    height: 375px;
+    width: 600px;
+    padding: 0px 20px;
+    margin: 0px 20px;
+    font-family: 'PT Serif', serif;
+    border: #bd7c1b dotted 1px;
+    background: -webkit-gradient(linear, left bottom, left top, from(white), to(#c9c0c0));
+    background: linear-gradient(bottom, white, #c9c0c0);
+}
+
+main #thematic {
+    display: block;
+    float: left;
+    border: #bd7c1b dotted 1px;
+    background: -webkit-gradient(linear, left bottom, left top, from(white), to(#c9c0c0));
+    background: linear-gradient(bottom, white, #c9c0c0);
+    padding: 20px;
+}
+
+main h3 {
+    display: inline-block;
+    font-size: 22pt;
+    padding-left: 200px;
+    display: inline;
+    position: relative;
+}
+
+main li {
+    font-weight: bold;
+    color: #4e5579;
+}
+
+main ul li {
+    font-weight: normal;
+    color: black;
+}
+
+main #contact {
+    display: table-cell;
+    margin: auto;
+    position: relative;
+    padding-left: 150px;
+    margin-top: 30px;
+}
+
+main #contact fieldset {
+    display: inline-block;
+    position: relative;
+    top: 40px;
+    right: 50px;
+    width: 300px;
+}
+
+main #contact fieldset label {
+    font-weight: bold;
+}
+
+main #contact input {
+    display: block;
+    -ms-flex-line-pack: center;
+    align-content: center;
+    padding-left: 200px;
+    margin: 5px;
+}
+
+main #contact button {
+    margin: 10px 160px;
+    cursor: pointer;
+    background: radial-gradient(white, #9e9898);
+}
+
+main #contact .img-uno {
+    height: 280px;
+    width: 500px;
+    position: relative;
+    display: inline-block;
+    top: 10px;
+    left: 180px;
+    border-radius: 50px;
+}
+
+main #contact .img-uno:hover {
+    -webkit-transform: rotateY(180deg);
+    transform: rotateY(180deg);
+}
+
+footer {
+    display: inline;
+}
+
+footer p {
+    padding-left: 500px;
+    font-style: italic;
+}
+
+.dark {
+    color: #7d86b4;
+    background-color: black;
+}
+
+.light {
+    color: rgb(125, 134, 180);
+    background: red;
+}
+
+
+/*# sourceMappingURL=style.css.map */
