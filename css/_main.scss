@@ -15,7 +15,7 @@ main {
         margin: 0px 20px;
         font-family: 'PT Serif', serif;
         border: $tertiary-color dotted 1px;
-        background: $gradient;
+       // background: $gradient;
     }
     #thematic {
         display: block;
@@ -92,12 +92,13 @@ footer {
     }
 }
 
+.light {
+    color: rgb(125, 134, 180);
+    background: white;
+}
+
 .dark {
     color: rgb(125, 134, 180);
     background-color: black;
 }
 
-.light {
-    color: rgb(125, 134, 180);
-    background: white;
-}
