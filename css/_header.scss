@@ -1,28 +1,30 @@
 header{
     
-
     .logo{
         margin: 0;
-        }
+    }
+
     h1{ 
         font-size: 50px;
         margin: 10px 480px;
         font-family: monospace;
     }
+
     nav{
-    color: white;
-    font-size: 15pt;
-    position: fixed;
-    top: 10px;
-    right: 10px;
-    padding: 0px;
-    background: linear-gradient(top, $primary-color, $secondary-color);
-    border-radius: 5px;
+        color: white;
+        font-size: 15pt;
+        position: fixed;
+        top: 10px;
+        right: 10px;
+        padding: 0px;
+        border-radius: 5px;
+        height: 30px;
+        background-color: rgb(37, 36, 46);
 
         li{
-        display: inline;
-        padding: 0px 5px;
-        margin: 0px 15px;
+            display: inline;
+            padding: 0px 5px;
+            margin: 0px 15px;
         }
     }
     a{
