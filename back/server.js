@@ -28,9 +28,7 @@ app.post('/usuarios', (req,res)=>{
     console.log(usuarios);
     res.status(200).json(data);
 })
-
 //let email = document.getElementById('email').value;
-
 
 //Validar Email
 function validarEmail(valor) {
