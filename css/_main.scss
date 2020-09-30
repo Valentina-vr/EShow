@@ -1,0 +1,103 @@
+main {
+    h2 {
+        display: inline-block;
+        font-size: 22pt;
+        padding-left: 380px;
+        display: inline;
+        position: relative;
+    }
+    #home {
+        display: block;
+        float: left;
+        height: 375px;
+        width: 600px;
+        padding: 0px 20px;
+        margin: 0px 20px;
+        font-family: 'PT Serif', serif;
+        border: $tertiary-color dotted 1px;
+        background: $gradient;
+    }
+    #thematic {
+        display: block;
+        float: left;
+        border: $tertiary-color dotted 1px;
+        background: $linear-gradient;
+        padding: 20px;
+    }
+    h3 {
+        display: inline-block;
+        font-size: 22pt;
+        padding-left: 200px;
+        display: inline;
+        position: relative;
+    }
+    li {
+        font-weight: bold;
+        color: rgb(78, 85, 121);
+    }
+    ul {
+        li {
+            font-weight: normal;
+            color: black;
+        }
+    }
+    #contact {
+        display: table-cell;
+        margin: auto;
+        position: relative;
+        padding-left: 150px;
+        margin-top: 30px;
+        fieldset {
+            display: inline-block;
+            position: relative;
+            top: 40px;
+            right: 50px;
+            width: 300px;
+            label {
+                font-weight: bold;
+                ;
+            }
+        }
+        input {
+            display: block;
+            align-content: center;
+            padding-left: 200px;
+            margin: 5px;
+        }
+        button {
+            margin: 10px 160px;
+            cursor: pointer;
+            background: $radial-gradient;
+        }
+        .img-uno {
+            height: 280px;
+            width: 500px;
+            position: relative;
+            display: inline-block;
+            top: 10px;
+            left: 180px;
+            border-radius: 50px;
+            &:hover {
+                transform: rotateY(180deg);
+            }
+        }
+    }
+}
+
+footer {
+    display: inline;
+    p {
+        padding-left: 500px;
+        font-style: italic;
+    }
+}
+
+.dark {
+    color: rgb(125, 134, 180);
+    background-color: black;
+}
+
+.light {
+    color: rgb(125, 134, 180);
+    background: white;
+}
